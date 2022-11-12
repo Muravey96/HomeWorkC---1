@@ -6,13 +6,13 @@ int N = int.Parse(userInput);
 
 int count = 1;
 
-while (count < N);
+while (count < N)
 {
     if (count%2 == 0)
     {
         Console.WriteLine(count);
     }
-    count = count ++;
+    count ++;
 }
 
 Console.Write(N);
